@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/yourusername/local-devops-project.git'
+                git 'https://github.com/Vishnubalagopal/multibranch-pipeline.git'
             }
         }
 
